@@ -1,0 +1,5 @@
+[user]
+    email = ajlacuesta19@gmail.com
+
+[include]
+    path = ~/.gitconfig
