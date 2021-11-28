@@ -1,0 +1,12 @@
+.Calendar {
+  width: 60%;
+  padding: 1rem 0;
+  /* height: 50vh; */
+  /* border-radius: 5px;
+  border: 2px solid grey; */
+}
+
+.Box {
+  width: 100px;
+  height: 100px;
+}
