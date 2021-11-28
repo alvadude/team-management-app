@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Calendar from './component/Calendar/Calendar';
+import ChatBox from './component/ChaxBox/ChatBox';
+import SharedFiles from './component/SharedFiles/SharedFiles';
+import Todos from './component/Todos/Todos';
+import UserBadge from './component/UserBadge/UserBadge';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <UserBadge/>
+      <div className='todos'>
+        <Calendar/>
+        <Todos/>
+      </div>
+      <div className='sharing'>
+        <ChatBox/>
+        <SharedFiles/>
+      </div>
     </div>
   );
 }
