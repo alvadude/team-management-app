@@ -1,0 +1,11 @@
+.Badge {
+  padding: 10px;
+  box-shadow: 1px 1px 2px 1px #ccc;
+  background-color: yellow;
+  border-radius: 5px;
+  width: 100px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
